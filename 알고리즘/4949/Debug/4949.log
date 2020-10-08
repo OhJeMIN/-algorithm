@@ -1,0 +1,5 @@
+﻿  4949.cpp
+C:\Users\Oh\Desktop\알고리즘\알고리즘\4949\4949.cpp(28,6): error C3867: 'std::stack<std::string,std::deque<std::string,std::allocator<std::string>>>::top': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+C:\Users\Oh\Desktop\알고리즘\알고리즘\4949\4949.cpp(28,67): error C3867: 'std::stack<std::string,std::deque<std::string,std::allocator<std::string>>>::top': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+C:\Users\Oh\Desktop\알고리즘\알고리즘\4949\4949.cpp(31,18): error C2446: '==': 'const char [2]'에서 'int'(으)로 변환되지 않았습니다.
+C:\Users\Oh\Desktop\알고리즘\알고리즘\4949\4949.cpp(31,15): message : 이 변환이 가능한 컨텍스트가 없습니다.
