@@ -1,3 +1,4 @@
-﻿  1874.cpp
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(459,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (알고리즘모음.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  1874.cpp
 C:\Users\Oh\Desktop\알고리즘\알고리즘\알고리즘모음\1874.cpp(33,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  알고리즘모음.vcxproj -> C:\Users\Oh\Desktop\알고리즘\알고리즘\Debug\알고리즘모음.exe
+  알고리즘모음.vcxproj -> C:\Users\Oh\Desktop\알고리즘\알고리즘\Debug\1874.exe
