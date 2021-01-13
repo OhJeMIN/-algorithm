@@ -9,7 +9,7 @@ int main() {
 	int answer = 0;
 	int a = 1;
 	string input;
-	cin >> input;
+	cin >> input;	
 
 	for (int i = 0; i < input.size(); i++) {
 		v.push_back(input[i]);
