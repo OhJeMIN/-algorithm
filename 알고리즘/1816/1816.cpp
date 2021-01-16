@@ -10,8 +10,6 @@ int main() {
 	long long num;
 	vector<int> v;
 	vector<int>  v1;
-	vector<int> result;
-	int a = 0;
 	const int MAX = 1e6 + 1;
 	for (int i = 0; i <= MAX; i++) {
 		v.push_back(i);
@@ -29,30 +27,21 @@ int main() {
 	}
 
 	for(int k = 0; k < n; k++){
+		bool flag = true;
 		cin >> num;
-		for (int i = 0; i <= num; i++) {
-			while (num != 1) {
+		for (int i = 0; i < v1.size(); i++) {				
 				if (num % v1[i] == 0) {
-					num /= v1[i];
-					result.push_back(v1[i]);
+					cout << "NO" << '\n';
+					flag = false;// 여기 범위내에서 하나 나눠짐 표시
+					break;
 				}
-			}
 		}
-		for (int j = 0; j < result.size(); j++) {
-			if (result[j] > 1000000) {
-				a++;
-			}
-		}
-		if (a == result.size()) {
+		if (flag) {
 			cout << "YES" << '\n';
 		}
-		else{
-			cout << "NO" << '\n';
-		}
-
 		a = 0;
 		num = 0;
-		result.clear();
+		
 	}
 }
 
