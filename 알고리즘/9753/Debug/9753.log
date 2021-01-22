@@ -1,0 +1,5 @@
+﻿  9753.cpp
+C:\Users\Oh\Desktop\알고리즘\알고리즘\9753\9753.cpp(26,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Oh\Desktop\알고리즘\알고리즘\9753\9753.cpp(27,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\Oh\Desktop\알고리즘\알고리즘\9753\9753.cpp(37,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  9753.vcxproj -> C:\Users\Oh\Desktop\알고리즘\알고리즘\Debug\9753.exe
